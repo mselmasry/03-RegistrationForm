@@ -7,34 +7,40 @@
     <title>Regisertation Form</title>
 </head>
 <body>
+    <style type="text/css">
+        .field 
+        {
+            height: 40px;
+        }
+    </style>
     <h2>Registration Form</h2>
     <form method="get">
-        <div>
+        <div class="field">
             <label>First Name: *</label>
             <input type="text" name="firstName" placeholder="your first name ...">
         </div>
 
-        <div>
+        <div class="field">
             <label>Last Name: *</label>
             <input type="text" name="lastName" placeholder="your last name ...">
         </div>
 
-        <div>
+        <div class="field">
             <label>Email Address: *</label>
             <input type="text" placeholder="your email address">
         </div>
 
-        <div>
+        <div class="field">
             <label>Password: *</label>
             <input type="password" name="password">
         </div>
 
-        <div>
+        <div class="field">
             <label>Confirm Password: *</label>
             <input type="password" name="passwordConfirmation">
         </div>
 
-        <div>
+        <div class="field">
             <label >Birthday:</label>
             <input type="date">
         </div>
@@ -43,7 +49,7 @@
             <label>Gender Identity:</label>
         </div>
 
-        <div>
+        <div class="field">
             <input type="radio" name="Male" id="male">
             <label for="male">Male</label>
 
@@ -57,7 +63,7 @@
             <label for="noAnswer">I prefer not to answer</label>
         </div>
 
-        <div>
+        <div class="field">
             <label>A short description about myself:</label>
         </div>
 
@@ -65,7 +71,7 @@
             <textarea name="description" cols="20" rows="3"></textarea>
         </div>
 
-        <div>
+        <div class="field">
             <label>Favorite Language:</label>
             <select name="Language">
                 <option value="js">JavaScript</option>
@@ -74,12 +80,12 @@
             </select>
         </div>
 
-        <div>
+        <div class="field">
             <input type="checkbox" id="updates" checked>
             <label for="updates">Yes, I would like to receive periodic email updates</label>
         </div>
 
-        <div>
+        <div class="field">
             <input type="submit" value="Create Account">
         </div>
 
