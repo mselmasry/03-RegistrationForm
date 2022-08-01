@@ -1,2 +1,2 @@
 03-RegisterationForm
-Coding Dojo Web Fundamentals Core Assignment 
+</p>Coding Dojo Web Fundamentals Core Assignment 
